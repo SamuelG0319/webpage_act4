@@ -1,14 +1,16 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    //Recogemos los datos del form
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    require_once('user.php'); // Reemplaza con la ruta correcta si es necesario
+    require_once('user.php');
 
     $login = new User();
     if ($login->authenticate($username, $password)) {
-        // El usuario ha sido redirigido a la página segura
+        // El usuario se redirige a la página principal
     } else {
+        //Sino, creamos el mensaje de error
         $errorMessage = $login->getErrorMessage();
     }
 }
@@ -83,6 +85,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     <script>
         <?php
+        //Determinamos si la variable de error está definida para mostrarla con alert()
         if (isset($errorMessage)) {
             echo "alert('$errorMessage');";
         }
@@ -95,4 +98,3 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <script src="assets/js/main.js"></script>
 </body>
 </html>
-

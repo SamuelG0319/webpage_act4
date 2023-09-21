@@ -15,9 +15,10 @@ class User {
                     session_start();
                     $_SESSION['username'] = $username;
                     $_SESSION['time_session'] = date('Y-m-d H:i:s');
-                    header('Location: mainMenu.php'); // Redirigir al usuario a una página segura
+                    header('Location: mainMenu.php'); // Redirigir al menú
                     exit;
                 } else if ($username === $user) {
+                    //Si el nombre de usuario está bien, quiere decir que la contraseña es incorrecta
                     $this->errorMessage = "Contraseña incorrecta. Inténtalo nuevamente.";
                     fclose($file);
                     return false;
@@ -25,7 +26,7 @@ class User {
             }
             fclose($file);
         }
-        // Autenticación fallida
+        // Autenticación fallida, al ingresar el nombre de usuario incorrectamente
         $this->errorMessage = "Usuario incorrecto. Inténtalo nuevamente.";
         return false;
     }
