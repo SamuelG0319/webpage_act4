@@ -1,0 +1,1 @@
+samuel,samuel|Samuel|Lasso|6355-9482|samuel.lasso@utp.ac.pa|lab3Login_Crud.com|assets\images\samuel_icon.png
