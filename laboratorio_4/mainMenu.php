@@ -140,7 +140,7 @@
                                     <div class="down-content">
                                         <a href="problema1.php"><span><i class="fa fa-eye"></i>Problema 1</span></a>
                                         <a href="problema1.php">
-                                            <h4>Libros</h4>
+                                            <h4>Libros por: Keily Marín</h4>
                                         </a>
                                     </div>
                                 </div>
@@ -160,7 +160,7 @@
                                     <div class="down-content">
                                         <a href="problema2.php"><span><i class="fa fa-eye"></i>Problema 2</span></a>
                                         <a href="problema2.php">
-                                            <h4>Notas</h4>
+                                            <h4>Notas por: Samuel Lasso</h4>
                                         </a>
                                     </div>
                                 </div>
@@ -180,7 +180,7 @@
                                     <div class="down-content">
                                         <a href="problema3.php"><span><i class="fa fa-eye"></i>Problema 3</span></a>
                                         <a href="problema3.php">
-                                            <h4>Calculadora</h4>
+                                            <h4>Calculadora por: Miguel Rodríguez</h4>
                                         </a>
                                     </div>
                                 </div>
