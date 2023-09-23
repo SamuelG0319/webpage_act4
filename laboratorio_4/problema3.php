@@ -221,51 +221,5 @@
         </div>";
     }
     ?>
-
-    <script>
-
-        /*const form = document.querySelector("form");
-        const input = document.querySelector("input[type='submit']");
-        const div = document.getElementById("resultContainer");
-        var content = document.getElementById("resultContainer");
-
-        //        console.log(div);
-        function mostrar() {
-            input.addEventListener("click", () => {
-                // Enviar información con el formulario
-                form.submit();
-
-                // Mostrar div oculto
-                
-                content.classList.remove("oculto");
-                content.classList.add("visible");
-                //div.style.display = "block";
-            });
-        }
-
-        /*
-        function showHide() {
-            var content = document.getElementById("resultContainer");
-            if (content.classList.contains("oculto")) {
-                content.classList.remove("oculto");
-                content.classList.add("visible");
-            } else {
-                content.classList.remove("visible");
-                content.classList.add("oculto");
-            }
-        }
-        const myDiv = document.getElementById("resultContainer");
-        var myForm = document.getElementById("my-form");
-
-        myForm.addEventListener("submit", (event) => {
-            event.preventDefault();
-            myDiv.style.display = "flex";
-        });
-
-        /*setTimeout(() => {
-            myDiv.style.display = "none";
-        }, 10000);*/
-    </script>
 </body>
-
 </html>
