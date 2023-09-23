@@ -144,7 +144,7 @@ $libros = isset($_SESSION['libros']) ? $_SESSION['libros'] : [];
                     <button type="submit" name="limpiar">Limpiar datos</button>
                 </form>
                 <br>
-                   <a href="menu.php" class="boton">Menú</a>
+                   <a href="mainMenu.php" class="boton">Menú</a>
 
             </div>
         </div>
